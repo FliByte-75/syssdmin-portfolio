@@ -1,0 +1,25 @@
+==================================================
+        ENTERPRISE NETWORK SCALING GUIDE          
+==================================================
+
+[1] IP ADDRESSING & SUBNETTING
+--------------------------------------------------
+* IPv4 Basics: 32-bit addresses split into a Network ID and a Host ID.
+* Subnet Masks: Used to determine where the network ends and the host begins.
+  - Example: 192.168.1.0 with a mask of 255.255.255.0 (/24) allows for 254 usable hosts.
+* Scaling Solution: CIDR (Classless Inter-Domain Routing) and VLSM allow engineers 
+  to carve up large networks into smaller, optimized subnets to reduce broadcast traffic.
+
+[2] THE OSI MODEL (THE SYSADMIN LENS)
+--------------------------------------------------
+* Layer 1 (Physical): Cables, hubs, and bits.
+* Layer 2 (Data Link): MAC addresses and switches. (VLANs scale networks here).
+* Layer 3 (Network): IP addresses and routers. (Where packets get routed across subnets).
+* Layer 4 (Transport): TCP (reliable, handshakes) and UDP (fast, streaming).
+
+[3] CORE UTILITIES FOR TROUBLESHOOTING
+--------------------------------------------------
+* ip addr    - View local IP configurations.
+* ping       - Test basic end-to-end network connectivity (ICMP).
+* traceroute - Map out every router hop between your server and a destination.
+* netstat/ss - View active network connections and listening ports
