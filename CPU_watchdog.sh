@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "=== ENTERPRISE PROCESSOR THERMAL WATCHDOG ==="
-read -p "Enter current CPU core temperature (in C): " TEMP
+TEMP=$(( 30 + RANDOM % 65 ))
 echo "Initiating thermal boundary analysis..."
 if [ "$TEMP" -ge 80 ]; then
 echo " CRITICAL EXHAUSTION: Core is melting (${TEMP} C)! Activating emergency backup coolant lines!"
