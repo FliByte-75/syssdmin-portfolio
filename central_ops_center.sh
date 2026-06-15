@@ -25,7 +25,15 @@ case $REQ_OP in
        echo "SYSTEM INITIATION: INTERNAL PING SWEEP ENGINE"
        echo "=============================================="
        read -p "Enter target subnet prefix (e.g., 172.17.6): " USER_SUBNET
-       ./ping_sweep.sh $USER_SUBNET
+
+       # Deploy Subnet Validation Gate (Checks for X.X.X format)
+       if [[ $USER_SUBNET =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]]; then
+           echo "Subnet syntax verified. Connecting sweep..."
+            ./ping_sweep.sh $USER_SUBNET
+       else
+           echo "CRITICAL ERROR: Invalid Subnet syntax detected."
+           echo "Operational flight scrubbed to protect system stability."
+       fi
        ;;
      2)
        echo "=============================================="
