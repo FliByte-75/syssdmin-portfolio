@@ -1,0 +1,29 @@
+Scanning subnet range: 172.17.6.0 to 172.17.6.10...
+==================================================
+⚪ HOST MISSNG: [2026-06-14 21:58:53] Device at 172.17.6.0 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 21:58:53] Device at 172.17.6.1 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 21:58:53] Device at 172.17.6.2 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 21:58:53] Device at 172.17.6.3 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 21:58:53] Device at 172.17.6.4 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 21:58:53] Device at 172.17.6.5 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 21:58:53] Device at 172.17.6.6 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 21:58:53] Device at 172.17.6.7 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 21:58:53] Device at 172.17.6.8 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 21:58:53] Device at 172.17.6.9 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 21:58:53] Device at 172.17.6.10 is offline/unreachable.
+==================================================
+===NETWORK RECON REPORT: 2026-06-14 22:03:46 ===
+Scanning subnet range: 172.17.6.0 to 172.17.6.10...
+==================================================
+⚪ HOST MISSNG: [2026-06-14 22:03:46] Device at 172.17.6.0 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 22:03:46] Device at 172.17.6.1 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 22:03:46] Device at 172.17.6.2 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 22:03:46] Device at 172.17.6.3 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 22:03:46] Device at 172.17.6.4 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 22:03:46] Device at 172.17.6.5 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 22:03:46] Device at 172.17.6.6 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 22:03:46] Device at 172.17.6.7 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 22:03:46] Device at 172.17.6.8 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 22:03:46] Device at 172.17.6.9 is offline/unreachable.
+⚪ HOST MISSNG: [2026-06-14 22:03:46] Device at 172.17.6.10 is offline/unreachable.
+==================================================
