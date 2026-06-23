@@ -3,7 +3,7 @@
 # ENTERPRISE AUTOMATION: REMOTE HEALTH SURVEYOR
 # =========================================================
 
-TARGET="127.0.0.1"
+TARGET="172.17.6.254"
 USER="tudent"
 TIMESTAMP=$(date "+%Y-%m-%d %H:%M:%S")
 
@@ -25,6 +25,7 @@ if [ $? -eq 0 ]; then
     echo "$REMOTE_DISK_SPACE"
 else
     echo "CONNECTION FAILED: Check network path or key validation."
+    exit 1
 fi
 
 echo "================================================="

@@ -24,7 +24,7 @@ if [ -z "$SUBNET" ]; then
 fi
 
 #Initilize the report file header
-echo"===NETWORK RECON REPORT: $TIMESTAMP ===" | tee -a $REPORT_FILE
+echo "===NETWORK RECON REPORT: $TIMESTAMP ===" | tee -a $REPORT_FILE
 echo "Scanning subnet range: ${SUBNET}.0 to ${SUBNET}.10..." | tee -a $REPORT_FILE
 echo "==================================================" | tee -a $REPORT_FILE
 
